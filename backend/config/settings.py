@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-cmsh%s6^)t5l9i*(u+yky5i66_0qhk!jmvdr7zi7l&4zay_ms-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]  
 
 
 # Application definition
@@ -143,4 +143,5 @@ STATIC_URL = 'static/'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://L'atelier-restu.vercel.app"
 ]
