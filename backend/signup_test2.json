@@ -1,0 +1,5 @@
+{
+  "email": "testcustomer@example.com",
+  "password": "Test1234!",
+  "returnSecureToken": true
+}

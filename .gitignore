@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Node
+node_modules/
+dist/
+
+# Environment secrets — never commit these
+.env
+.env.local
+
+# Firebase secret key — never commit this
+firebase-service-account.json
+
+# OS files
+.DS_Store

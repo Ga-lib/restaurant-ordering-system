@@ -1,0 +1,11 @@
+Model Information:
+* title:	Burger Realistic (Free)
+* source:	https://sketchfab.com/3d-models/burger-realistic-free-18e59d7dbd2243c69f469e0f056f44c4
+* author:	erebus3d (https://sketchfab.com/erebus3d)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Burger Realistic (Free)" (https://sketchfab.com/3d-models/burger-realistic-free-18e59d7dbd2243c69f469e0f056f44c4) by erebus3d (https://sketchfab.com/erebus3d) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
