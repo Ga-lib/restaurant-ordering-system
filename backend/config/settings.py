@@ -19,14 +19,14 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
+import os
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-cmsh%s6^)t5l9i*(u+yky5i66_0qhk!jmvdr7zi7l&4zay_ms-'
+# Change your hardcoded keys to use os.getenv() fallbacks
+SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-cmsh%s6^)t5l9i*(u+yky5i66_0qhk!jmvdr7zi7l&4zay_ms-')
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# Convert the environment string variable safely into a Python Boolean
+DEBUG = os.getenv('DEBUG', 'True') == 'True'
+
 
 ALLOWED_HOSTS = ["*"]  
 
@@ -143,5 +143,5 @@ STATIC_URL = 'static/'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://L'atelier-restu.vercel.app"
+    "https://vercel.app",  # Removed the single quote and forced lowercase
 ]
