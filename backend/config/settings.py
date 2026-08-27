@@ -143,7 +143,10 @@ STATIC_URL = 'static/'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://vercel.app",  # Removed the single quote and forced lowercase
+]
+
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://restaurant-ordering-system.*\.vercel\.app$",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
