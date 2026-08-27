@@ -145,3 +145,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
     "https://vercel.app",  # Removed the single quote and forced lowercase
 ]
+
+CORS_ALLOW_ALL_ORIGINS = True
+
